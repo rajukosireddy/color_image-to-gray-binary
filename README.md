@@ -2,9 +2,9 @@
 This Python script showcases basic image processing techniques using the OpenCV library. It reads an input color image, converts it to grayscale, applies binary thresholding, and displays the results. The script serves as a practical example for those interested in understanding simple image manipulation with OpenCV.
 ## Table of contents
 
--[Features](#features)
--[Dependencies](#dependencies)
-
+- [Features](#features)
+- [Dependencies](#dependencies)
+- [Acknowledgments](#acknowledgments)
 ## Features:
 1. Color Image Display: Visualize the original color image.
 2. Grayscale Conversion: Convert the color image to grayscale for further analysis.
