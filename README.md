@@ -75,7 +75,7 @@ The code is divided into the following sections:
 ![color_image](https://github.com/rajukosireddy/color_image-to-gray-binary/assets/141699777/e041b107-5677-4462-9aeb-50c937bb4c2d)
 
 ## Output-GrayImage:
-
+![image](https://github.com/rajukosireddy/color_image-to-gray-binary/assets/141699777/68326db6-4d79-46f2-aad5-a96e70d87a83)
   
 
 
