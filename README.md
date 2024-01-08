@@ -73,6 +73,7 @@ The code is divided into the following sections:
 
 ## Input-color-Image:
 
+![color_image](https://github.com/rajukosireddy/color_image-to-gray-binary/assets/141699777/90dc156b-b6c7-49de-9592-f73c884b9e54)
   
 
 
