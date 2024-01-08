@@ -77,6 +77,10 @@ The code is divided into the following sections:
 
 ## Gray-Image:
 
+![image](https://github.com/rajukosireddy/color_image-to-gray-binary/assets/141699777/c04a21be-a2d0-4ac4-8bab-e00727012c40)
+
+## Binary-Image:
+
 
   
 
