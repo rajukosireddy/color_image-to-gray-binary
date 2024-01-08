@@ -24,7 +24,7 @@ Ensure you have the required dependencies installed:
 ## Code Explanation:
 
 The code is divided into the following sections:
-### I. Importing required libraries
+
 - `cv2`: OpenCV library for computer vision and image processing.
 - `cv2_imshow`: A function provided by Google Colab to display images.
   ```bash
@@ -33,3 +33,24 @@ The code is divided into the following sections:
   ```
 - Read a color image from the file '1704113778755.png' using cv2.imread().
 - The cv2.IMREAD_COLOR flag indicates that the image should be loaded in color.
+  ```bash
+  color_img = cv2.imread('/content/1704113778755.png', cv2.IMREAD_COLOR)
+  ```
+- Check if the image has been successfully loaded. If so, display the original color image using cv2_imshow().
+  ```bash
+  if color_img is not None:
+    cv2_imshow(color_img)
+  ```
+- Convert the color image to grayscale using cv2.cvtColor() with the cv2.COLOR_BGR2GRAY conversion. Display the grayscale image.
+  ```bash
+      gray_img = cv2.cvtColor(color_img, cv2.COLOR_BGR2GRAY)
+      cv2_imshow(gray_img)
+  ```
+- Apply binary thresholding to the grayscale image using cv2.threshold().
+- Pixels with intensity greater than 127 are set to 255 (white), and others to 0 (black). Display the binary image.
+  ```bash
+      _, binary_img = cv2.threshold(gray_img, 127, 255, cv2.THRESH_BINARY)
+      cv2_imshow(binary_img)
+
+
+    
