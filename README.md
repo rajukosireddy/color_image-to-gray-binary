@@ -5,6 +5,7 @@ This Python script showcases basic image processing techniques using the OpenCV 
 - [Features](#features)
 - [Dependencies](#dependencies)
 - [Acknowledgments](#acknowledgments)
+- [Code Explanation](#code-explanation)
 ## Features:
 1. Color Image Display: Visualize the original color image.
 2. Grayscale Conversion: Convert the color image to grayscale for further analysis.
@@ -19,3 +20,16 @@ Ensure you have the required dependencies installed:
 ## Acknowledgments:
 1. OpenCV community for the powerful image processing library.
 2. Google Colab for providing a convenient environment for running Python scripts.
+
+## Code Explanation:
+
+The code is divided into the following sections:
+### I. Importing required libraries
+- `cv2`: OpenCV library for computer vision and image processing.
+- `cv2_imshow`: A function provided by Google Colab to display images.
+  ```bash
+  import cv2
+  from google.colab.patches import cv2_imshow
+  ```
+- Read a color image from the file '1704113778755.png' using cv2.imread().
+- The cv2.IMREAD_COLOR flag indicates that the image should be loaded in color.
