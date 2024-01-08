@@ -87,6 +87,11 @@ The code is divided into the following sections:
 ![image](https://github.com/rajukosireddy/color_image-to-gray-binary/assets/141699777/9450298c-328e-44bc-82f4-774281377ed6)
 
 
+# Rows & Columns:
+- Number of rows: 4192
+- Number of columns: 3144
+
+
   
 
 
