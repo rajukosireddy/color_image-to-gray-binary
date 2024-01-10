@@ -9,6 +9,7 @@ This Python script showcases basic image processing techniques using the OpenCV 
 - [Input-color-Image](#input-color-image)
 - [Gray-Image](#gray-image)
 - [Binary-Image](#binary-image)
+  
 ## Features:
 1. Color Image Display: Visualize the original color image.
 2. Grayscale Conversion: Convert the color image to grayscale for further analysis.
