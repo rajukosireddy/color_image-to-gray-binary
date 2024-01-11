@@ -36,7 +36,6 @@ The code is divided into the following sections:
   import cv2
   from google.colab.patches import cv2_imshow
   ```
-  
 - Read a color image from the file '1704113778755.png' using cv2.imread().
 - The cv2.IMREAD_COLOR flag indicates that the image should be loaded in color.
   ```bash
@@ -75,6 +74,8 @@ The code is divided into the following sections:
   ```
 
 - The code provides a basic image processing example, displaying the original color image, its grayscale version, and the result of binary thresholding. It's designed to be run in a Google Colab environment, hence the use of cv2_imshow() for image display.
+
+
 
 ## Input-color-Image:
 
