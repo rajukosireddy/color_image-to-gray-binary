@@ -75,8 +75,6 @@ The code is divided into the following sections:
 
 - The code provides a basic image processing example, displaying the original color image, its grayscale version, and the result of binary thresholding. It's designed to be run in a Google Colab environment, hence the use of cv2_imshow() for image display.
 
-
-
 ## Input-color-Image:
 
 ![color_image](https://github.com/rajukosireddy/color_image-to-gray-binary/assets/141699777/a3857f03-2ff5-4134-85a1-552a91c93e5c)
